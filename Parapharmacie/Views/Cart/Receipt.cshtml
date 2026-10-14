@@ -11,7 +11,7 @@
             <div class="card shadow-lg border-success">
                 <div class="card-header bg-success text-white text-center py-4">
                     <h1 class="mb-0">
-                        ✅ Commande confirmée !
+                        Commande confirmée !
                     </h1>
                     <p class="mb-0 mt-2">Merci pour votre achat chez Farma</p>
                 </div>
@@ -115,15 +115,15 @@
 
                     <div class="text-center mt-4">
                         <a href="@Url.Action("Index", "Home")" class="btn btn-primary btn-lg me-2">
-                            🏠 Retour à l'accueil
+                            Retour à l'accueil
                         </a>
                         <a href="@Url.Action("Index", "Catalog")" class="btn btn-outline-primary btn-lg me-2">
-                            📦 Continuer les achats
+                            Continuer les achats
                         </a>
                         @if (Model.CustomerId.HasValue)
                         {
                             <a href="@Url.Action("Dashboard", "ClientPortal")" class="btn btn-outline-secondary btn-lg">
-                                👤 Mon espace client
+                                Mon espace client
                             </a>
                         }
                     </div>
@@ -132,7 +132,7 @@
 
             <div class="text-center mt-4">
                 <button onclick="window.print()" class="btn btn-outline-secondary">
-                    🖨️ Imprimer ce reçu
+                    Imprimer ce reçu
                 </button>
             </div>
         </div>
